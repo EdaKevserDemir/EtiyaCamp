@@ -2,7 +2,7 @@ package inheritanceDemo;
 
 public class BaseKrediManager {
 
-	public void Hesapla() {
-		System.out.println("Kredi Hesaplandi  ");
+	public double hesapla(double tutar) {
+		return tutar*1.18;
 	}
 }

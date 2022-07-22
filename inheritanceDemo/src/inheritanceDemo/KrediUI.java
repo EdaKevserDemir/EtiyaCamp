@@ -1,7 +1,7 @@
 package inheritanceDemo;
 
 public class KrediUI {
-	public void KrediHesapla(BaseKrediManager baseKrediManager) {
-		baseKrediManager.Hesapla();
+	public double KrediHesapla(BaseKrediManager baseKrediManager) {
+	return	baseKrediManager.hesapla(100);
 	}
 }
