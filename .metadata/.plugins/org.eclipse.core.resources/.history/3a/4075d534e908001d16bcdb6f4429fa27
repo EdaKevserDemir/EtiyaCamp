@@ -1,0 +1,16 @@
+package task2;
+
+public class CustomerManager {
+
+	public void add() {
+		System.out.println("Added");
+	}
+
+	public void update() {
+		System.out.println("Updated");
+	}
+
+	public void delete() {
+		System.out.println("Deleted");
+	}
+}

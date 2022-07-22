@@ -1,0 +1,10 @@
+package task2;
+
+public class Product {
+	int id;
+	String name;
+	double price;
+	String Description;
+	int stockAmount;
+
+}

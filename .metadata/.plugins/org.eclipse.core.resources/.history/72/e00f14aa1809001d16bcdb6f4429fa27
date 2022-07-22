@@ -1,0 +1,9 @@
+package task2;
+
+public class ProductManager {
+	public void add() {
+		System.out.println("added");
+	
+}
+
+}

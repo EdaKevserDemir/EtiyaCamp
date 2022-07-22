@@ -1,0 +1,7 @@
+package oop2;
+
+public class CustomerManager {
+	public void add(Customer customer) {
+		System.out.println("Customer added");
+	}
+}

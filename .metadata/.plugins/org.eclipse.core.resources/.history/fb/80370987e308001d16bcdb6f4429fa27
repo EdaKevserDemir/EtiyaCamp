@@ -1,0 +1,33 @@
+package task2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		findNumber();
+
+	}
+
+	public static void findNumber() {
+		int[] numbers = new int[] { 1, 2, 5, 6,7, 9, 0 };
+		int search=6;
+		boolean isThere=false;
+		for (int number : numbers) {
+			if(number==search) {
+				isThere=true;
+				break;
+			}
+		}
+		if(isThere)
+		{
+			getMessage("number found : "+ search);
+		}
+		else
+		{
+			getMessage("number not found : "+search);
+		}
+	}
+	public static void getMessage(String message) {
+		System.out.println(message);
+	}
+
+}
